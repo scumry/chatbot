@@ -1,0 +1,19 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "module",
+            "scripts": {
+              "start": "node index.js",
+              "dev": "nodemon index.js"
+            },
+            "request": "launch",
+            "name": "Запустить программу",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\node.js"
+        }
+    ]
+}
